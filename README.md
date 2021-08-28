@@ -40,5 +40,8 @@ A template for building OpenWrt with GitHub Actions
 - [peter-evans/repository-dispatch](https://github.com/peter-evans/repository-dispatch)
 
 ## License
-
+复制 SSH 连接命令粘贴到终端内执行，或者复制链接在浏览器中打开使用网页终端。（网页终端可能会遇到黑屏的情况，按 Ctrl+C 即可）
+cd openwrt && make menuconfig
+完成后按Ctrl+D组合键或执行exit命令退出，后续编译工作将自动进行。
+TIPS: 固件目录下有个config.seed或者config.buildinfo文件，如果你需要再次编译可以使用它。
 [MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/main/LICENSE) © [**P3TERX**](https://p3terx.com)
